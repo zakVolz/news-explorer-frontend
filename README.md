@@ -2,6 +2,8 @@
 
 ### В проекте содержатся 2 страницы: Главная и сохранённые статьи.
 
+GitHub-pages https://zakvolz.github.io/news-explorer-frontend/
+
 Чтобы развернуть проект у себя на ПК необходимо установить [Git](https://git-scm.com/), [Node.js с NPM](https://nodejs.org/en/)
 
 В терминале Git Bush нужно выполнить следующие команды:
