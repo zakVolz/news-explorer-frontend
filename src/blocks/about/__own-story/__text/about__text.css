@@ -1,0 +1,15 @@
+.about__text {
+  font-family: 'Roboto', Times, serif;
+  font-size: 18px;
+  line-height: 24px;
+  max-width: 600px;
+  margin: 0;
+  color: #1a1b22;
+}
+
+@media screen and (min-width: 500px) and (max-width: 700px) {
+  .about__text {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}

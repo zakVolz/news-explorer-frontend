@@ -1,0 +1,12 @@
+.popup__button.button_is-enabled {
+  color: #fff;
+  background: #2f71e5;
+}
+
+.button_is-enabled:hover {
+  background: #347eff;
+}
+
+.button_is-enabled:active {
+  background: #2a65cc;
+}

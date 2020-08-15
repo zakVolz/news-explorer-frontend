@@ -1,0 +1,39 @@
+@import url(./__site-name/header__site-name.css);
+@import url(./_dark/header_dark.css);
+@import url(./_mobile/header_mobile.css);
+@import url(./_light/header_light.css);
+@import url(./__toggle-menu/header__toggle-menu.css);
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 66px;
+  padding: 0 104px;
+  background: rgba(255, 255, 255, 0.01);
+  box-shadow: inset 0px -1px 0px rgba(255, 255, 255, 0.2);
+  transition: all 0.3s ease;
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    padding: 0 40px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .header {
+    padding: 0 16px;
+    height: 56px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .header {
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 100;
+    box-shadow: inset 0px -1px 0px rgba(119, 119, 119, .2);
+  }
+}

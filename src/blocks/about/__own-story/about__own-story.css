@@ -1,0 +1,21 @@
+@import url(./__text/about__text.css);
+@import url(./__title/about__title.css);
+
+.about__own-story {
+  margin: 0 0 0 56px;
+  min-height: 360px;
+}
+
+@media screen and (max-width: 1024px) {
+  .about__own-story {
+    margin: 45px 0 72px 32px;
+    min-height: 0;
+    max-width: 424px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .about__own-story {
+    margin: 0 0 80px;
+  }
+}

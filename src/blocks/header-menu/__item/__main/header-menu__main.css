@@ -1,0 +1,10 @@
+@import url(./_light/header-menu__main_light.css);
+
+.header-menu__main {
+  color: #fff;
+  text-decoration: none;
+}
+
+.header-menu__main:hover {
+  opacity: .8;
+}

@@ -1,0 +1,10 @@
+@import url(./_link/popup__else_link.css);
+
+.popup__else {
+  font-family: Inter;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  margin: 16px 0 0;
+}

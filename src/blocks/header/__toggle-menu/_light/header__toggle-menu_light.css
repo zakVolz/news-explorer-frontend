@@ -1,0 +1,7 @@
+.header__toggle-menu.header__toggle-menu_light::before {
+  background: #1a1b22;
+}
+
+.header__toggle-menu.header__toggle-menu_light::after {
+  background: #1a1b22;
+}

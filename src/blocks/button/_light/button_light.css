@@ -1,0 +1,18 @@
+.button_light {
+  font-family: 'Roboto', Times, serif;
+  font-weight: 500;
+  border-radius: 100px;
+  padding: 12px 16px;
+  background: rgba(75, 66, 66, 0);
+  outline:none;
+}
+
+.button_light:hover {
+  cursor: pointer;
+  background: rgba(165, 165, 165, .1);
+}
+
+.button_light:active {
+  cursor: pointer;
+  background: rgba(165, 165, 165, .4);
+}

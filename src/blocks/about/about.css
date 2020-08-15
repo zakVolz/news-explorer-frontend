@@ -1,0 +1,24 @@
+@import url(./__avatar/about__avatar.css);
+@import url(./__own-story/about__own-story.css);
+
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 104px;
+}
+
+@media screen and (max-width: 1024px) {
+  .about {
+    padding: 0 40px;
+    align-items: start;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .about {
+    padding: 0 16px;
+    flex-direction: column;
+    align-items: center;
+  }
+}

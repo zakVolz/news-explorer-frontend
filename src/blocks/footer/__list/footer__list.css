@@ -1,0 +1,27 @@
+@import url(./__item/footer__item.css);
+
+.footer__list {
+  display: flex;
+  margin: 0;
+  font-size: 18px;
+  line-height: 24px;
+  list-style-type: none;
+  color: #1a1b22;
+}
+
+@media screen and (max-width: 700px) {
+  .footer__list {
+    display: grid;
+    grid-template-columns: 10fr 1fr 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 15px 20px;
+    padding: 0 0 0 10px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .footer__list {
+    padding: 20px 0 38px;
+  }
+}

@@ -1,0 +1,13 @@
+@import url(./_hidden/not-found_hidden.css);
+@import url(./__image/not-found__image.css);
+@import url(./__subtitle/not-found__subtitle.css);
+@import url(./__title/not-found__title.css);
+
+.not-found {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 374px;
+  background: #f5f6f7;
+}

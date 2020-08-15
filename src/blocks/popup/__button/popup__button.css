@@ -1,0 +1,11 @@
+@import url(./_is-enabled/popup__button_is-enabled.css);
+
+.popup__button {
+  font-size: 18px;
+  line-height: 24px;
+  width: 100%;
+  height: 64px;
+  padding: 20px 0;
+  background: #e6e8eb;
+  color: #b6bcbf;
+}

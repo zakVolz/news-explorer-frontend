@@ -1,0 +1,28 @@
+.cards__keyword {
+  font-family: 'Roboto', Times, serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  box-shadow: 0px 10px 22px rgba(59, 74, 116, 0.1);
+  border-radius: 10px;
+  padding: 8px 15px;
+  margin: 0;
+  background: #fff;
+  position: absolute;
+  left: 24px;
+  top: 24px;
+}
+
+@media screen and (max-width: 1024px) {
+  .cards__keyword {
+    left: 8px;
+    top: 8px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .cards__keyword {
+    left: 16px;
+    top: 16px;
+  }
+}
