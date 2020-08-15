@@ -39,7 +39,7 @@
         <p class="search__subtitle">Находите самые свежие статьи на любую тему и сохраняйте в своём&nbsp;личном
           кабинете.</p>
         <form class="search__form">
-          <input type="search" class="search__input" placeholder="Введите тему новости">
+          <input type="search" class="search__input" placeholder="Введите тему новости" required>
           <button class="button search__button">Искать</button>
         </form>
       </section>
@@ -62,7 +62,7 @@
             maxlength="30" placeholder="Введите своё имя" required>
           <span class="popup__error">&#160;</span>
           <p class="popup__error popup__error_uniqle">Такой пользователь уже есть</p>
-          <button type="submit" class="button popup__button" disabled="true">Зарегистрироваться</button>
+          <button type="submit" class="button popup__button button_is-enabled">Зарегистрироваться</button>
         </form>
         <p class="popup__else">или <a href="#" class="popup__else_link">Войти</a></p>
       </div>
@@ -81,7 +81,7 @@
             placeholder="Введите пароль" required>
           <span class="popup__error">&#160;</span>
           <p class="popup__error popup__error_uniqle">Неправильный email или пароль</p>
-          <button type="submit" class="button popup__button" disabled="true">Войти</button>
+          <button type="submit" class="button popup__button">Войти</button>
         </form>
         <p class="popup__else">или <a href="#" class="popup__else_link">Зарегистрироваться</a></p>
       </div>

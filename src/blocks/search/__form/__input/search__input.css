@@ -13,6 +13,10 @@
   border-radius: 100px;
 }
 
+.search__input:hover {
+  box-shadow: 0px 0px 4px 0px rgba(204, 204, 204, .8);
+}
+
 .search__input::-webkit-input-placeholder {
   color: #b6bcbf;
 }
