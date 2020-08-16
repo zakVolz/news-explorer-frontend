@@ -1,0 +1,40 @@
+@import url(./__articles/header-menu__articles.css);
+@import url(./__login/header-menu__login.css);
+@import url(./__main/header-menu__main.css);
+@import url(./__quit/header-menu__quit.css);
+@import url(./__quit-icon/header-menu__quit-icon.css);
+@import url(./_type/_hidden/header-menu__item_type_hidden.css);
+@import url(./_type/_selected/header-menu__item_type_selected.css);
+
+.header-menu__item {
+  font-family: 'Roboto', Times, serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  margin: 0 30px 0 0;
+}
+
+.header-menu__item:last-child {
+  margin: 0;
+}
+
+@media screen and (min-width: 701px) and (max-width: 1024px) {
+  .header-menu__item {
+    font-size: 16px;
+    margin: 0 16px 0 0;
+  }
+}
+
+@media screen and (min-width: 501px) and (max-width: 700px) {
+  .header-menu__item {
+    font-size: 12px;
+    line-height: 20px;
+    margin: 0 8px 0 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .header-menu__item:last-child {
+    margin: 0 30px 0 0;
+  }
+}

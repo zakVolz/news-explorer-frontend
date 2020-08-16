@@ -1,0 +1,32 @@
+.about__title {
+  font-family: 'Roboto Slab', Times, serif;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 46px;
+  margin: 0 0 24px;
+  color: #1a1b22;
+}
+
+@media screen and (max-width: 1024px) {
+  .about__title {
+    margin: 0 0 16px;
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .about__title {
+    margin: 0 0 10px;
+    font-size: 22px;
+    line-height: 30px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .about__title {
+    margin: 0 0 16px;
+    font-size: 30px;
+    line-height: 40px;
+  }
+}

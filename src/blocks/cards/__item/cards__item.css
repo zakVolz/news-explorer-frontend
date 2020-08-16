@@ -1,0 +1,21 @@
+@import url(./__date/cards__date.css);
+@import url(./__image/cards__image.css);
+@import url(./__keyword/cards__keyword.css);
+@import url(./__hovering/cards__hovering.css);
+@import url(./__source/cards__source.css);
+@import url(./__text/cards__text.css);
+@import url(./__title/cards__title.css);
+
+.cards__item {
+  background: #fff;
+  max-width: 400px;
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 1024px) {
+  .cards__item {
+    padding: 0 0 50px;
+  }
+}

@@ -1,0 +1,27 @@
+.button.article__more-button {
+  margin: 0 auto 80px;
+  padding: 21px 89px;
+  background: #fff;
+}
+
+.article__more-button:hover {
+  background: #ECECEC;
+}
+
+.article__more-button:active {
+  background: #ddd;
+}
+
+@media screen and (max-width: 1024px) {
+  .button.article__more-button {
+    margin: 0 auto 40px;
+    padding: 19px 67px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .button.article__more-button {
+    margin: 0 0 32px;
+    width: 100%;
+  }
+}

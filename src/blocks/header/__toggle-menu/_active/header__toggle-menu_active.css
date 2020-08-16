@@ -1,0 +1,15 @@
+.header__toggle-menu.header__toggle-menu_active::before {
+  transform: rotate(45deg);
+  margin-top: 4px;
+}
+
+.header__toggle-menu.header__toggle-menu_active::after {
+  transform: rotate(-45deg);
+  margin-top: -4px;
+}
+
+@media screen and (min-width: 500px) {
+  .header__toggle-menu_active {
+    display: none;
+  }
+}

@@ -1,0 +1,21 @@
+@import url(./__more-button/article__more-button.css);
+@import url(./__title/article__title.css);
+
+.article {
+  display: flex;
+  flex-direction: column;
+  padding: 0 104px;
+  background: #f5f6f7;
+}
+
+@media screen and (max-width: 1024px) {
+  .article {
+    padding: 0 40px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .article {
+    padding: 0 16px;
+  }
+}

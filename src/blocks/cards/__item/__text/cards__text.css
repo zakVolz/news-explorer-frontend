@@ -1,0 +1,17 @@
+.cards__text {
+  font-family: 'Roboto', Times, serif;
+  font-size: 16px;
+  line-height: 22px;
+  margin: 0 24px 55px;
+  color: #1a1b22;
+}
+
+@media screen and (max-width: 1024px) {
+  .cards__text {
+    margin: 0 16px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+  }
+}

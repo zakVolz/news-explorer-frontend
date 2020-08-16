@@ -1,0 +1,45 @@
+@import url(./_active/header__toggle-menu_active.css);
+@import url(./_light/header__toggle-menu_light.css);
+
+.header__toggle-menu {
+  position: relative;
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  background: transparent;
+  border: none;
+  padding: 0;
+  outline: none;
+}
+
+.header__toggle-menu::before {
+  position: relative;
+  left: 0;
+  top: -2px;
+  content: "";
+  display: block;
+  height: 2px;
+  width: 16px;
+  margin: 0 auto;
+  background: #fff;
+  transition: all linear 0.3s;
+}
+
+.header__toggle-menu::after {
+  position: relative;
+  left: 0;
+  right: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  width: 16px;
+  margin: 0 auto;
+  background: #fff;
+  transition: all linear 0.3s;
+}
+
+@media screen and (min-width: 500px) {
+  .header__toggle-menu {
+    display: none;
+  }
+}

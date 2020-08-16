@@ -1,0 +1,25 @@
+@import url(./__copyright/footer__copyright.css);
+@import url(./__list/footer__list.css);
+
+.footer {
+  font-family: 'Roboto', Times, serif;
+  min-height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 104px;
+}
+
+@media screen and (max-width: 1024px) {
+  .footer {
+    padding: 0 40px;
+    min-height: 64px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .footer {
+    flex-direction: column-reverse;
+    padding: 0 16px 20px;
+  }
+}

@@ -1,0 +1,19 @@
+@import url(./_light/header-menu_mobile_light.css);
+
+.header-menu.header-menu_mobile {
+  position: absolute;
+  top: 56px;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  box-sizing: border-box;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: 40px;
+  grid-row-gap: 15px;
+  background: #1a1b22;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  padding: 16px 16px 24px;
+}

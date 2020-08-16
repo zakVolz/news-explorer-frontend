@@ -1,0 +1,25 @@
+@import url(./__desc/saved__desc.css);
+@import url(./__keyword/saved__keyword.css);
+@import url(./__subtitle/saved__subtitle.css);
+@import url(./__title/saved__title.css);
+
+.saved {
+  display: flex;
+  flex-direction: column;
+  min-height: 294px;
+  padding: 0 104px;
+}
+
+@media screen and (max-width: 1024px) {
+  .saved {
+    padding: 0 40px;
+    min-height: 204px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .saved {
+    padding: 56px 16px 0;
+    min-height: 246px;
+  }
+}

@@ -1,0 +1,11 @@
+@import url(./_uniqle/popup__error_uniqle.css);
+
+.popup__error {
+  font-family: 'Inter', Times, serif;
+  font-size: 12px;
+  line-height: 15px;
+  color: #FF0000;
+  top: -24px;
+  left: 0px;
+  position: relative;
+}

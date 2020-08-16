@@ -1,0 +1,5 @@
+@import url(./_light/header_mobile_light.css);
+
+.header.header_mobile {
+  background: #1a1b22;
+}

@@ -1,0 +1,25 @@
+.cards__source {
+  font-family: 'Roboto Slab', Times, serif;
+  position: absolute;
+  bottom: 24px;
+  left: 24px;
+  text-transform: uppercase;
+  border-bottom: 2px solid transparent;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.4px;
+  color: #b6bcbf;
+}
+
+.cards__source:hover {
+  border-bottom: 2px solid #b6bcbf;
+}
+
+@media screen and (max-width: 1024px) {
+  .cards__source {
+    bottom: 16px;
+    left: 16px;
+  }
+}
