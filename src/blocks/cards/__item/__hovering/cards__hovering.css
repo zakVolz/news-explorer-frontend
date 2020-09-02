@@ -1,5 +1,7 @@
 @import url(./__hovering-icon/cards__hovering-icon.css);
 @import url(./__hovering-message/cards__hovering-message.css);
+@import url(./_unauthorized/cards__hovering_unauthorized.css);
+@import url(./_trash/cards__hovering_trash.css);
 
 .cards__hovering {
   display: flex;

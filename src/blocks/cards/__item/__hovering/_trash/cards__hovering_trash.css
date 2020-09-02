@@ -1,0 +1,13 @@
+.cards__hovering.cards__hovering_trash .cards__hovering-icon {
+  background-image: url('../../../../../images/trash.svg');
+}
+
+.cards__hovering.cards__hovering_trash:hover .cards__hovering-icon {
+  background-image: url('../../../../../images/trash.svg');
+}
+
+@media screen and (min-width: 1280px) {
+  .cards__hovering_trash:hover .cards__hovering-message {
+    display: flex;
+  }
+}

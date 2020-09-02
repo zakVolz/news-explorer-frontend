@@ -1,11 +1,39 @@
 .cards__image {
-  margin: 0 0 20px 0;
-  max-width: 100%;
-  height: auto;
+  background-image: url('https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/d8arwbw0lewohcn2yztv.jpg');
+  margin: 0 auto 20px;
+  height: 272px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1260px) {
+  .cards__image {
+    height: 220px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .cards__image {
+    height: 210px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .cards__image {
+    height: 150px;
+  }
 }
 
 @media screen and (max-width: 500px) {
   .cards__image {
-    margin: 0 0 10px 0;
+    margin: 0 auto 10px;
+    height: 215px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cards__image {
+    height: 196px;
   }
 }

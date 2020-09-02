@@ -1,0 +1,7 @@
+.cards__hovering-icon.cards__hovering-icon_marked {
+  background-image: url('../../../../../../images/favorites_marked.svg');
+}
+
+.cards__hovering-icon.cards__hovering-icon_marked:hover {
+  background-image: url('../../../../../../images/favorites_marked.svg');
+}

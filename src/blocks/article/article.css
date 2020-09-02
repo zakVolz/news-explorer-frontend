@@ -1,5 +1,6 @@
 @import url(./__more-button/article__more-button.css);
 @import url(./__title/article__title.css);
+@import url(./_hidden/article_hidden.css);
 
 .article {
   display: flex;

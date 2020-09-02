@@ -1,6 +1,24 @@
+@import url('./_marked/cards__hovering-icon_marked.css');
+
 .cards__hovering-icon {
-  box-shadow: 0px 10px 22px rgba(59, 74, 116, 0.1);
-  border-radius: 10px;
-  padding: 10px 11px 11px;
   background: #fff;
+  background-image: url('../../../../../images/favorites_normal.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: 0px 10px 22px rgba(59, 74, 116, .1);
+  border-radius: 10px;
+  min-width: 40px;
+  min-height: 40px;
+  transition: .2s;
+}
+
+.cards__hovering-icon:hover {
+  background-image: url('../../../../../images/favorites_hover.svg');
+  box-shadow: 0px 10px 22px rgba(255, 255, 255, .2);
+  cursor: pointer;
+}
+
+.cards__hovering-icon:active {
+  box-shadow: 0px 10px 22px rgba(255, 255, 255, .5);
+  cursor: pointer;
 }

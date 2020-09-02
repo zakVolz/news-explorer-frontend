@@ -1,0 +1,11 @@
+.cards__hovering.cards__hovering_unauthorized:hover .cards__hovering-icon {
+  cursor: default;
+  box-shadow: none;
+  background-image: url('../../../../../images/favorites_normal.svg');
+}
+
+@media screen and (min-width: 1280px) {
+  .cards__hovering_unauthorized:hover .cards__hovering-message {
+    display: flex;
+  }
+}
