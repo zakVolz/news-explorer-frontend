@@ -61,6 +61,7 @@ signInForm.addEventListener('submit', (event) => {
 // Выход из аккаунта
 headerQuitButton.addEventListener('click', () => {
   logOut(isAuthorized);
+  document.location.href = './index.html';
 });
 
 // Получение новостей

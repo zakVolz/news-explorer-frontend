@@ -3,6 +3,5 @@ export default function logOut() {
   // eslint-disable-next-line no-alert
   if (confirm('Вы действительно хотите выйти?')) {
     localStorage.removeItem('jwt');
-    document.location.href = '../index.html';
   }
 }

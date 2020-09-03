@@ -93,7 +93,7 @@ export default class NewsCard {
   // Вставка изображения если пришло null
   imageIsNull(obj) {
     if (!obj.urlToImage) {
-      this._image = './src/images/no-image.jpg';
+      this._image = 'https://downloader.disk.yandex.ru/preview/ee148090727394724fd39a50d561a9dee710f5cfcf82459b7a5aee8cb5577db7/5f514270/FZKItlL4Y8tzRrhPYBaaVHH61ME_RkwdA29iVFo259vxQSLdyS07H9EmUBBF_-5cWCiyVDXToI-bo7yqJiCpUw==?uid=0&filename=no-image.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&tknv=v2&owner_uid=163741062&size=2048x2048';
     } else {
       this._image = obj.urlToImage;
     } return this._image;

@@ -27,6 +27,7 @@ const cardList = new CardList(cards, initialCards, createCard, mainApi);
 // Выход из аккаунта и переход на главную страницу
 headerQuitButton.addEventListener('click', () => {
   logOut(isAuthorized);
+  document.location.href = '../index.html';
 });
 
 // Открытие мобильного меню в header

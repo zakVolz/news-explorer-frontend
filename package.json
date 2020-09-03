@@ -6,6 +6,7 @@
   "scripts": {
     "build": "webpack --mode production",
     "dev": "webpack-dev-server --mode development --open --watch",
+    "deploy": "npm run build && scp -r ./dist/* zakvolz@84.201.170.81:/home/zakvolz/news-explorer-frontend",
     "deploy-gh": "cross-env NODE_ENV=production gh-pages -d dist"
   },
   "repository": {
