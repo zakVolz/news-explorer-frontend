@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="News Explorer">
+  <meta name="keywords" content="news, explorer, articles">
+  <meta name="author" content="Evgeniy Zadorozhnyh">
+  <link rel="icon" href="<%=require('../images/favicon.ico').default%>">
+  <title>Сохранённые статьи</title>
+  <link rel="stylesheet" href="<%= htmlWebpackPlugin.files.css %>">
+</head>
+
+<body>
+  <div class="root">
+    <header class="header header_light">
+      <a href="./index.html" class="header__site-name header__site-name_light">NewsExplorer</a>
+      <nav class="header__nav">
+        <ul class="header-menu">
+          <li class="header-menu__item">
+            <a href="./index.html" class="header-menu__main header-menu__main_light">Главная</a></li>
+          <li class="header-menu__item">
+            <a href="./favorites.html"
+              class="header-menu__articles header-menu__articles_light header-menu__item_type_selected">Сохранённые&nbsp;статьи</a>
+          </li>
+          <li class="header-menu__item">
+            <button class="button_light header-menu__quit header-menu__quit_light">
+              <span class="header-menu__username"></span>
+              <img src="<%=require('../images/quit_light.svg').default%>" alt="Выход" class="header-menu__quit-icon">
+            </button></li>
+        </ul>
+      </nav>
+      <button class="header__toggle-menu header__toggle-menu_light"></button>
+    </header>
+    <main class="content">
+      <section class="saved">
+        <p class="saved__desc">Сохранённые статьи</p>
+        <h2 class="saved__title"></h2>
+        <p class="saved__subtitle">По ключевым словам: <b class="saved__keyword"></b> и <b
+            class="saved__keyword"></b></p>
+      </section>
+      <article class="article">
+        <div class="cards"></div>
+      </article>
+    </main>
+    <footer class="footer">
+      <span class="footer__copyright">© 2020 Supersite, Powered by News API</span>
+      <ul class="footer__list">
+        <li class="footer__item"><a href="./index.html" class="footer__link">Главная</a></li>
+        <li class="footer__item"><a href="https://praktikum.yandex.ru/" target="_blank"
+            class="footer__link">Яндекс.Практикум</a></li>
+        <li class="footer__item"><a href="https://github.com/zakVolz" target="_blank" class="footer__link">
+            <img src="<%=require('../images/github.svg').default%>" alt="Ссылка на GitHub" class="footer__link-icon">
+          </a></li>
+        <li class="footer__item"><a href="https://www.facebook.com/" target="_blank" class="footer__link">
+            <img src="<%=require('../images/facebook.svg').default%>" alt="Ссылка на Facebook"
+              class="footer__link-icon">
+          </a></li>
+      </ul>
+    </footer>
+  </div>
+  <script type="module" src="<%= htmlWebpackPlugin.files.js %>"></script>
+</body>
+
+</html>
