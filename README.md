@@ -1,8 +1,8 @@
-# Дипломный проект - 'NEWS-EXPLORER-FRONTEND' Версия: 2.0.0
+# 'NEWS-EXPLORER-FRONTEND' Версия: 2.0.0
 
 ### В проекте содержатся 2 страницы: Главная и сохранённые статьи.
 
-Сайт доступен по адресу https://news-explorer-project.tk/
+~~Сайт доступен по адресу https://news-explorer-project.tk/~~
 
 GitHub-pages https://zakvolz.github.io/news-explorer-frontend/
 
